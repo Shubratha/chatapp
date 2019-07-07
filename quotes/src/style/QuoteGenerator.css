@@ -1,0 +1,36 @@
+.Header {
+    vertical-align: top;
+}
+.Quotebox {
+    background-color: white;
+    opacity: 0.5;
+    height: 210px;
+    width: 750px;
+    padding: 20px;
+    margin: 10px;
+}
+.Quote {
+    color: black;
+    font-weight: bold;
+}
+.Button {
+    text-transform: uppercase;
+    background: #c19d9d;
+    font-weight: bold;
+    font-family: "Arial Black", Gadget, sans-serif;
+    cursor: pointer;
+    padding: 20px;
+    margin: 70px;
+    border-radius: 5px;
+    display: inline-block;
+    border: none;
+}
+.Button:hover {
+    background: #434343;
+    color: white;
+    letter-spacing: 1px;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.4s ease 0s;
+}
